@@ -70,7 +70,7 @@ Made.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
 Made.Position = UDim2.new(-2.4029851, 0, -31.0000019, 0)
 Made.Size = UDim2.new(0, 779, 0, 40)
 Made.Font = Enum.Font.Garamond
-Made.Text = "ESC HUB MULTİ GAME HACK MADE BY ESC COMMUNİTY Melony#0001 "
+Made.Text = "ESC HUB MULTİ GAME HACK MADE BY ESC COMMUNİTY Esc#3489 "
 Made.TextColor3 = Color3.new(0.0666667, 1, 0.172549)
 Made.TextSize = 26
 
@@ -80,7 +80,7 @@ Thanks.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
 Thanks.Position = UDim2.new(-2.4029851, 0, -4.2000041, 0)
 Thanks.Size = UDim2.new(0, 779, 0, 45)
 Thanks.Font = Enum.Font.Garamond
-Thanks.Text = "THANKS FOR USE ESC HUB İF YOU NEED HELP  Melony#0001"
+Thanks.Text = "THANKS FOR USE ESC HUB İF YOU NEED HELP  Esc#3489"
 Thanks.TextColor3 = Color3.new(0.0666667, 1, 0.172549)
 Thanks.TextSize = 26
 
@@ -139,7 +139,7 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 	Title.Position = UDim2.new(-0.00123740127, 0, -0.0123605356, 0)
 	Title.Size = UDim2.new(0, 428, 0, 35)
 	Title.Font = Enum.Font.Garamond
-	Title.Text = "BGS NEW YEAR UPDATEq"
+	Title.Text = "BGS NEW YEAR UPDATE"
 	Title.TextColor3 = Color3.new(1, 0, 0)
 	Title.TextSize = 25
 
@@ -12666,7 +12666,7 @@ OpenGui.BackgroundColor3 = Color3.new(0.0431373, 0.0431373, 0.0431373)
 OpenGui.Position = UDim2.new(-0.00657889713, 0, 0, 0)
 OpenGui.Size = UDim2.new(0, 153, 0, 58)
 OpenGui.Font = Enum.Font.Highway
-OpenGui.Text = "Open Gui"
+OpenGui.Text = "Esc Hub"
 OpenGui.TextColor3 = Color3.new(0, 0.333333, 1)
 OpenGui.TextSize = 30
 OpenGui.MouseButton1Down:connect(function()

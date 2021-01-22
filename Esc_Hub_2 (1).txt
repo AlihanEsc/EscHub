@@ -234,7 +234,7 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 	Gui.Position = UDim2.new(-0.00137372292, 0, 0.478501737, 0)
 	Gui.Size = UDim2.new(0, 214, 0, 85)
 	Gui.Font = Enum.Font.Garamond
-	Gui.Text = "1B Egg"
+	Gui.Text = "COOMİNG SOON "
 	Gui.TextColor3 = Color3.new(0.0235294, 1, 0.054902)
 	Gui.TextSize = 25
 	Gui.MouseButton1Down:connect(function()

@@ -106,11 +106,6 @@ BubbleGumSmulator.TextColor3 = Color3.new(0.694118, 0.988235, 0)
 BubbleGumSmulator.TextSize = 25
 BubbleGumSmulator.MouseButton1Down:connect(function()
 
- game.StarterGui:SetCore("SendNotification", {
-			Title = "WELCOME TO BGS VALENTINES HATCH SPEED HACK";
-			Text = "Made By Esc Comminty "Esc#3489"";
-			Duration = 25;
-		})
 	
 
 	local ScreenGui = Instance.new("ScreenGui")
@@ -171,11 +166,7 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 	AntiAfk.TextSize = 25
 	AntiAfk.MouseButton1Down:connect(function()
 	 
-	 game.StarterGui:SetCore("SendNotification", {
-			Title = "Speed Hatch is Now Work For Heartful Egg";
-			Text = "Made By Esc Comminty "Esc#3489"";
-			Duration = 25;
-		})
+	
 
 		_G.OpAutoFarm = true
 		while wait() and _G.OpAutoFarm do
@@ -215,11 +206,6 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 	FastEgg.MouseButton1Down:connect(function()
 	
 	
-	 game.StarterGui:SetCore("SendNotification", {
-			Title = "Speed Hatch is Now Work For Lovely Egg";
-			Text = "Made By Esc Comminty "Esc#3489"";
-			Duration = 25;
-		})
 
 		_G.OpAutoFarm = true
 		while wait() and _G.OpAutoFarm do

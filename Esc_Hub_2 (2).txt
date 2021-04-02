@@ -70,7 +70,7 @@ Made.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
 Made.Position = UDim2.new(-2.4029851, 0, -31.0000019, 0)
 Made.Size = UDim2.new(0, 779, 0, 40)
 Made.Font = Enum.Font.Garamond
-Made.Text = "ESC HUB MULTİ GAME HACK MADE BY ESC COMMUNİTY Esc#3489 "
+Made.Text = "ESC HUB MULTİ GAME HACK MADE BY ESC#3489 "
 Made.TextColor3 = Color3.new(0.0666667, 1, 0.172549)
 Made.TextSize = 26
 
@@ -105,13 +105,7 @@ BubbleGumSmulator.Text = "Bubble Gum Simulator"
 BubbleGumSmulator.TextColor3 = Color3.new(0.694118, 0.988235, 0)
 BubbleGumSmulator.TextSize = 25
 BubbleGumSmulator.MouseButton1Down:connect(function()
-
- game.StarterGui:SetCore("SendNotification", {
-			Title = "WELCOME TO BGS VALENTINES HATCH SPEED HACK";
-			Text = "Made By Esc Comminty "Esc#3489"";
-			Duration = 25;
-		})
-	
+	-- Objects
 
 	local ScreenGui = Instance.new("ScreenGui")
 	local Main = Instance.new("Frame")
@@ -145,7 +139,7 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 	Title.Position = UDim2.new(-0.00123740127, 0, -0.0123605356, 0)
 	Title.Size = UDim2.new(0, 428, 0, 35)
 	Title.Font = Enum.Font.Garamond
-	Title.Text = "NEW VALENTINES UPDATE"
+	Title.Text = "BGS NEW YEAR UPDATEq"
 	Title.TextColor3 = Color3.new(1, 0, 0)
 	Title.TextSize = 25
 
@@ -166,22 +160,16 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 	AntiAfk.Position = UDim2.new(-0.00137372292, 0, 0.139445946, 0)
 	AntiAfk.Size = UDim2.new(0, 214, 0, 79)
 	AntiAfk.Font = Enum.Font.Garamond
-	AntiAfk.Text = "Heartful Egg"
+	AntiAfk.Text = "Golden Egg"
 	AntiAfk.TextColor3 = Color3.new(0.0235294, 1, 0.054902)
 	AntiAfk.TextSize = 25
 	AntiAfk.MouseButton1Down:connect(function()
-	 
-	 game.StarterGui:SetCore("SendNotification", {
-			Title = "Speed Hatch is Now Work For Heartful Egg";
-			Text = "Made By Esc Comminty "Esc#3489"";
-			Duration = 25;
-		})
 
 		_G.OpAutoFarm = true
 		while wait() and _G.OpAutoFarm do
 			local args = {
 				[1] = "PurchaseEgg",
-				[2] = "Heartful Egg",
+				[2] = "Golden Egg",
 				[3] = "Multi",
 			}
 
@@ -194,8 +182,8 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 			game:GetService("ReplicatedStorage").NetworkRemoteEvent:FireServer(unpack(args))
 		end
 		game.StarterGui:SetCore("SendNotification", {
-			Title = "WELCOME TO BGS VALENTINES UPDATE";
-			Text = "Made By Esc Comminty "Esc#3489"";
+			Title = "Fast Open Egg X2";
+			Text = "Made By Esc Comminty Melony#0001";
 			Duration = 25;
 		})
 
@@ -209,23 +197,16 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 	FastEgg.Position = UDim2.new(0.508060217, 0, 0.139445946, 0)
 	FastEgg.Size = UDim2.new(0, 208, 0, 164)
 	FastEgg.Font = Enum.Font.Garamond
-	FastEgg.Text = "Lovely Egg"
+	FastEgg.Text = "Jackpot Egg"
 	FastEgg.TextColor3 = Color3.new(0.0235294, 1, 0.054902)
-	FastEgg.TextSize = 25
+	FastEgg.TextSize = 15
 	FastEgg.MouseButton1Down:connect(function()
-	
-	
-	 game.StarterGui:SetCore("SendNotification", {
-			Title = "Speed Hatch is Now Work For Lovely Egg";
-			Text = "Made By Esc Comminty "Esc#3489"";
-			Duration = 25;
-		})
 
 		_G.OpAutoFarm = true
 		while wait() and _G.OpAutoFarm do
 			local args = {
 				[1] = "PurchaseEgg",
-				[2] = "Lovely Egg",
+				[2] = "Jackpot Egg",
 				[3] = "Multi",
 			}
 
@@ -253,7 +234,7 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 	Gui.Position = UDim2.new(-0.00137372292, 0, 0.478501737, 0)
 	Gui.Size = UDim2.new(0, 214, 0, 85)
 	Gui.Font = Enum.Font.Garamond
-	Gui.Text = "NONE"
+	Gui.Text = "Luck'O Egg"
 	Gui.TextColor3 = Color3.new(0.0235294, 1, 0.054902)
 	Gui.TextSize = 25
 	Gui.MouseButton1Down:connect(function()
@@ -262,7 +243,7 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 		while wait() and _G.OpAutoFarm do
 			local args = {
 				[1] = "PurchaseEgg",
-				[2] = "",
+				[2] = "Luck'O Egg",
 				[3] = "Multi",
 			}
 

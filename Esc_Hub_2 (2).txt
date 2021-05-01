@@ -160,7 +160,7 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 	AntiAfk.Position = UDim2.new(-0.00137372292, 0, 0.139445946, 0)
 	AntiAfk.Size = UDim2.new(0, 214, 0, 79)
 	AntiAfk.Font = Enum.Font.Garamond
-	AntiAfk.Text = " Cracked Egg"
+	AntiAfk.Text = "Corrupted Egg"
 	AntiAfk.TextColor3 = Color3.new(0.0235294, 1, 0.054902)
 	AntiAfk.TextSize = 25
 	AntiAfk.MouseButton1Down:connect(function()
@@ -169,7 +169,7 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 		while wait() and _G.OpAutoFarm do
 			local args = {
 				[1] = "PurchaseEgg",
-				[2] = "Cracked Egg",
+				[2] = "Corrupted Egg",
 				[3] = "Multi",
 			}
 
@@ -197,7 +197,7 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 	FastEgg.Position = UDim2.new(0.508060217, 0, 0.139445946, 0)
 	FastEgg.Size = UDim2.new(0, 208, 0, 164)
 	FastEgg.Font = Enum.Font.Garamond
-	FastEgg.Text = "Eastery Egg"
+	FastEgg.Text = "NONE"
 	FastEgg.TextColor3 = Color3.new(0.0235294, 1, 0.054902)
 	FastEgg.TextSize = 15
 	FastEgg.MouseButton1Down:connect(function()
@@ -234,7 +234,7 @@ BubbleGumSmulator.MouseButton1Down:connect(function()
 	Gui.Position = UDim2.new(-0.00137372292, 0, 0.478501737, 0)
 	Gui.Size = UDim2.new(0, 214, 0, 85)
 	Gui.Font = Enum.Font.Garamond
-	Gui.Text = "Cosmic Egg"
+	Gui.Text = "NONE"
 	Gui.TextColor3 = Color3.new(0.0235294, 1, 0.054902)
 	Gui.TextSize = 25
 	Gui.MouseButton1Down:connect(function()
